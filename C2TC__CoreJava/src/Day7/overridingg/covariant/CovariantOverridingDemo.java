@@ -1,5 +1,4 @@
-
-package Day7.Overriding.covariant;
+package Day7.overridingg.covariant;
 
 public class CovariantOverridingDemo {
 	public static void main(String arg[])
@@ -16,10 +15,9 @@ public class CovariantOverridingDemo {
 		
 		 //using covariant return type no need to type cast 
 		 /* Student student2 =student1.clone(); 
-		 * student2.setName("Ragavi"); 
+		 * student2.setName("Sachin"); 
 		 * student2.setRollNo(2);
 		 * student2.printData();
 		 */		
 		}
 }
-

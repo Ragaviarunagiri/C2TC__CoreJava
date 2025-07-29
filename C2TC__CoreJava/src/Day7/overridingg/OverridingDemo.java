@@ -1,6 +1,7 @@
-package Day7.Overriding.Shapes;
+package Day7.overridingg;
 
-public class OveridingDemo {
+public class OverridingDemo {
+
 	public static void main(String[] args) {
 		RBI rbi;
 
@@ -15,6 +16,5 @@ public class OveridingDemo {
 		System.out.println(rbi.getRateOfInterest());
 
 	}
-	
 
 }

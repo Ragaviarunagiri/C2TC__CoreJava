@@ -1,7 +1,8 @@
-package Day7.v1;
+package Day7.overloading.v1;
 
 public class Operations {
 	
+	//check whether number is Palindrome or not?
 	public static boolean isPalindrome(int number)
 	{
 		int rev=0;
@@ -14,6 +15,7 @@ public class Operations {
 		return dummyNumber==rev;
 	}
 
+	//check whether string is Palindrome or not?
 	public static boolean isPalindrome(String str)
 	{
 		String rev;
@@ -21,4 +23,3 @@ public class Operations {
 		return str.equals(rev);
 	}
 }
-
